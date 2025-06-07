@@ -41,14 +41,15 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (orientation: portrait){
   .arvore {
-    justify-content: start;
+    justify-content: end;
+    padding-bottom: 3rem;
   }
 
   .apresentacao div {
-    width: 17rem;
-    height: 17rem;
+    width: 15rem;
+    height: 15rem;
   }
   .apresentacao h1 {
     font-size: 3.5rem;

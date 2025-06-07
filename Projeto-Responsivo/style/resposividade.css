@@ -68,3 +68,59 @@
     height: 4rem;
   }
 }
+
+@media (min-width: 1024px) and (orientation: landscape) {
+  .arvore {
+    justify-content: start;
+  }
+
+  .apresentacao div {
+    width: 20rem;
+    height: 20rem;
+  }
+  .apresentacao h1 {
+    font-size: 5.5rem;
+  }
+
+  .apresentacao p {
+    font-size: 4rem;
+  }
+
+  .arvore .botao {
+    width: 25rem;
+    height: 13rem;
+    font-size: 7rem;
+  }
+  .arvore ul li {
+    width: 8rem;
+    height: 6.5rem;
+  }
+}
+
+@media (min-width: 1200px) and (orientation:landscape) {
+  .arvore {
+    justify-content: start;
+  }
+
+  .apresentacao div {
+    width: 23rem;
+    height: 23rem;
+  }
+  .apresentacao h1 {
+    font-size: 7rem;
+  }
+
+  .apresentacao p {
+    font-size: 6rem;
+  }
+
+  .arvore .botao {
+    width: 28rem;
+    height: 16.4rem;
+    font-size: 10rem;
+  }
+  .arvore ul li {
+    width: 12rem;
+    height: 9rem;
+  }
+}

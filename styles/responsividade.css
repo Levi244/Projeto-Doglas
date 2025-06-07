@@ -3,12 +3,17 @@
     display: flex;
   }
 
-  .apresentacao, .arvore {
+  .apresentacao,
+  .arvore {
     width: 50%;
     height: 100%;
   }
 
   .apresentacao p {
     font-size: .9rem;
+  }
+
+  .arvore ul .visibilidade {
+    display: block;
   }
 }
